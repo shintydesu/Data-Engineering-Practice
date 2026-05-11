@@ -1,0 +1,16 @@
+snapshot_date: "2024-06-30"
+
+input_tables:
+  hris: "people_science.raw.hris_employees"
+  performance: "people_science.raw.performance_reviews"
+
+output_table: "people_science.analytics.employee_metrics"
+
+write_mode: "overwrite" # or "append"
+
+partition_by: "snapshot_date"
+
+spark:
+  executor_memory: "8g"
+  executor_cores: 4
+  num_executors: 10

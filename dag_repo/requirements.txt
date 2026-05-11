@@ -1,0 +1,7 @@
+apache-airflow==2.7.3
+apache-airflow-providers-databricks==6.0.0
+PyYAML==6.0.1
+pytest==7.4.3
+pytest-airflow==0.0.5 
+black==23.11.0
+ruff==0.1.6

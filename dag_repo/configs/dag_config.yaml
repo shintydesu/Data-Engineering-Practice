@@ -1,0 +1,14 @@
+cluster:
+  spark_version: "13.3.x-scala2.12"
+  node_type_id: "i3.2xlarge"
+  num_workers: 10
+  autoscale:
+    min_workers: 4
+    max_workers: 20
+  custom_tags:
+    team: "people-science"
+    cost_center: "PS-2024"
+
+schedule: "0 6 * * *" # 6am UTC daily
+timeout_seconds: 3600 # fail if still running after 1hr
+max_retries: 2
