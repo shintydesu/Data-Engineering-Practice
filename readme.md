@@ -10,7 +10,7 @@ This project simulates building those tables end-to-end. From reading raw source
 
 ## Repository structure
 
-There are two separate repositories as David mentioned where pyspark repo (business logic) and dag repo which controls the scheduling.
+There are two separate repositories where pyspark repo (business logic) and dag repo which controls the scheduling.
 
 ```
 pyspark-repo/ # Business logic
